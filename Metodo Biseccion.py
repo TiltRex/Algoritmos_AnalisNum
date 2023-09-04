@@ -31,8 +31,8 @@ def bisection_method(a, b, max_iter, max_error_percentage, user_function):
 user_function = input("Ingresa la función f(c): ")
 
 # Intervalo inicial [a, b]
-a = int(input("Ingresa el valor del intervalo a: "))
-b = int(input("Ingresa el valor del intervalo b: "))
+a = float(input("Ingresa el valor del intervalo a: "))
+b = float(input("Ingresa el valor del intervalo b: "))
 
 # Número máximo de iteraciones y porcentaje máximo de error
 max_iterations = 1000
